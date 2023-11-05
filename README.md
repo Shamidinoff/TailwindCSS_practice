@@ -37,7 +37,7 @@ plugins: [],
 "description": "",
 "main": "index.js",
 "scripts": {
-"build": "tailwindcss build -i src/main.css -o public/styles.css"
+"build": "tailwindcss build -i src/main.css -o public/styles.css --watch"
 },
 "author": "",
 "license": "ISC",
@@ -46,6 +46,8 @@ plugins: [],
 "tailwindcss": "^3.3.5"
 }
 }
+
+(--watch чтобы не запускать генерацию стилей каждый раз, то есть npm run build)
 
 ## Add the Tailwind directives to your CSS
 
